@@ -110,4 +110,37 @@ body{
     box-shadow: 0 0 10px rgb(183, 0, 255), 0 0 20px rgb(195, 0, 255), 0 0 30px rgb(153, 0, 255); /* Efecto de resplandor amarillo */
   }
   
-  
+  /**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
