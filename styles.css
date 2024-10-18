@@ -1,9 +1,20 @@
+@font-face {
+    font-family: vulgaro;
+    src: url(Blacklisted.ttf);
+}
+
+
 body {
     margin: 0;
     font-family: '', sans-serif;
     background-color: #000; /* Fondo negro */
     color: #ffbf00; ; /* Color del texto amarillo */
     text-align: center; /* Centrar texto en todo el cuerpo */
+}
+
+h1{
+    font-family: 'vulgaro', vulgaro;
+    color: #d1c2c2;
 }
 
 .container {
